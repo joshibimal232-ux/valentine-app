@@ -57,10 +57,10 @@ const App: FC = () => {
 
             <div className="text-center space-y-3">
               <h1 className="heading-gradient font-display font-bold text-center leading-tight text-[clamp(24px,5vw,36px)]">
-                У тебя есть послание...
+                {config.recipientName}, для тебя есть вопрос...
               </h1>
               <p className="text-[15px] text-white/35">
-                Включить романтичную музыку?
+                Но для начала включи музыку, с ней будет приятнее 💗
               </p>
             </div>
 
@@ -69,19 +69,15 @@ const App: FC = () => {
                 className="btn-yes animate-pulse-glow flex-1 flex items-center justify-center gap-2"
                 onClick={() => handleEnter(true)}
               >
-                <span className="text-lg">♪</span>С музыкой
+                Да
               </button>
               <button
                 className="btn-no flex-1"
                 onClick={() => handleEnter(false)}
               >
-                Без музыки
+                Нет
               </button>
             </div>
-
-            <p className="text-[14px] text-white/20 text-center leading-relaxed">
-              Рекомендуется включить звук для полного погружения ✨
-            </p>
           </div>
         )}
 

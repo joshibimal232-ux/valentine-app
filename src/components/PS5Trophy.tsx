@@ -43,7 +43,7 @@ const PS5Trophy: FC<PS5TrophyProps> = ({ visible }) => {
           <div className="flex-1 min-w-0">
             {/* Trophy rarity */}
             <div className="text-[11px] font-semibold uppercase tracking-[1.5px] text-gray-400 mb-1 font-body">
-              🎮 Серебряный трофей
+              🎮 Золотой трофей
             </div>
 
             {/* Title */}
