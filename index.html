@@ -1,17 +1,110 @@
-<!doctype html>
-<html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0d0208" />
-    <title>💝 Valentine's Day</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Valentine 💖</title>
+
+<style>
+body {
+  margin: 0;
+    padding: 0;
+      min-height: 100vh;
+        background: linear-gradient(to bottom, #ffb6c1, #ff69b4);
+          font-family: Arial, sans-serif;
+            text-align: center;
+              color: white;
+              }
+
+              .container {
+                padding: 30px 15px;
+                }
+
+                h1 {
+                  font-size: 32px;
+                    margin-bottom: 5px;
+                    }
+
+                    h2 {
+                      font-size: 24px;
+                        margin: 10px 0;
+                        }
+
+                        p {
+                          font-size: 18px;
+                          }
+
+                          .photo {
+                            width: 180px;
+                              height: 180px;
+                                border-radius: 50%;
+                                  border: 4px solid #fff;
+                                    margin: 20px auto;
+                                      object-fit: cover;
+                                      }
+
+                                      .buttons {
+                                        margin-top: 25px;
+                                        }
+
+                                        button {
+                                          font-size: 18px;
+                                            padding: 12px 22px;
+                                              margin: 8px;
+                                                border-radius: 25px;
+                                                  border: none;
+                                                    cursor: pointer;
+                                                    }
+
+                                                    .yes {
+                                                      background: red;
+                                                        color: white;
+                                                        }
+
+                                                        .no {
+                                                          background: white;
+                                                            color: red;
+                                                            }
+
+                                                            footer {
+                                                              margin-top: 35px;
+                                                                font-size: 15px;
+                                                                  opacity: 0.9;
+                                                                  }
+                                                                  </style>
+                                                                  </head>
+
+                                                                  <body>
+
+                                                                  <div class="container">
+                                                                    <h1>Hey Sejal Rawal 💖</h1>
+                                                                      <h2>(Tuchhi 😜)</h2>
+
+                                                                        <!-- PHOTO: same folder ma your-photo.jpg rakh -->
+                                                                          <img src="your-photo.jpg" class="photo" alt="Her Photo">
+
+                                                                            <p>You make my world brighter every day ✨</p>
+                                                                              <h2>Will you be my Valentine? 💘</h2>
+
+                                                                                <div class="buttons">
+                                                                                    <button class="yes" onclick="yesClicked()">YES 😍</button>
+                                                                                        <button class="no" onclick="noClicked()">NO 🙈</button>
+                                                                                          </div>
+
+                                                                                            <footer>
+                                                                                                Made with ❤️ just for you
+                                                                                                  </footer>
+                                                                                                  </div>
+
+                                                                                                  <script>
+                                                                                                  function yesClicked() {
+                                                                                                    alert("Yayyy 😍 I love you Sejal (Tuchhi) ❤️🌹");
+                                                                                                    }
+
+                                                                                                    function noClicked() {
+                                                                                                      alert("Wrong answer 😜 Try again ❤️");
+                                                                                                      }
+                                                                                                      </script>
+
+                                                                                                      </body>
+                                                                                                      </html>
